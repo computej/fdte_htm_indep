@@ -16,7 +16,7 @@ hgroup.jumbotron {
 
 .propic-figure img {
   width: 200px;
-  clip-path: circle(42.9%);
+  clip-path: circle(42.8%);
 }
 
 .propic-figure figcaption {
@@ -25,4 +25,14 @@ hgroup.jumbotron {
   margin-top: 0.5ch;
   background-color: lightslategray;
   color: white;
+}
+
+.row {
+  margin-bottom: 1ch;
+}
+
+div.skills-sect {
+  display: grid;
+  column-gap: 5px;
+  grid: auto-flow dense / 1fr 1fr 1fr;
 }
