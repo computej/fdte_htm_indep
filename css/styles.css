@@ -52,3 +52,8 @@ div.skills-sect {
 #bash-badge {
   color: limegreen;
 }
+
+#vscode-badge {
+  /*! background-color: #4db3f3 */
+  background-color: #0066b8
+}
