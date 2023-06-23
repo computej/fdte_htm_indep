@@ -36,3 +36,19 @@ div.skills-sect {
   column-gap: 5px;
   grid: auto-flow dense / 1fr 1fr 1fr;
 }
+
+#html-badge {
+  background: linear-gradient(to right, #e54c21 50%, #f16524 50%);
+}
+
+#css-badge {
+  background: linear-gradient(to right, #214ce5 50%, #2465f1 50%);
+}
+
+#sharp-badge {
+  background: linear-gradient(45deg, #189f20 50%, #009404 50%);
+}
+
+#bash-badge {
+  color: limegreen;
+}
