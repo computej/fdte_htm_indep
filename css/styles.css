@@ -1,8 +1,8 @@
-hgroup.jumbotron {
-  text-align: center;
+header {
 /*  to not touch the page top  */
-  contain: layout;
   margin-top: 1rem;
+/*  the figure wouldn't look right without this  */
+  contain: layout;
 }
 
 .propic-figure {
