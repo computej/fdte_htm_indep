@@ -1,16 +1,16 @@
 hgroup.jumbotron {
   text-align: center;
 /*  to not touch the page top  */
+  contain: layout;
   margin-top: 1rem;
 }
 
 .propic-figure {
-  border-style: solid;
-  border-width: 1px;
   padding: 5px;
   max-width: fit-content;
   margin: 0 auto;
   display: grid;
+  float: right;
   background-color: lightsteelblue;
 }
 
