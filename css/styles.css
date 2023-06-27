@@ -12,6 +12,7 @@ header {
   display: grid;
   float: right;
   background-color: lightsteelblue;
+  clip-path: circle(42.8%);
 }
 
 .propic-figure img {
@@ -56,4 +57,11 @@ div.skills-sect {
 #vscode-badge {
   /*! background-color: #4db3f3 */
   background-color: #0066b8
+}
+
+address a[href^=mailto]::before {
+  content: "📧: ";
+}
+address a[href^=tel]::before {
+  content: "📱: ";
 }
