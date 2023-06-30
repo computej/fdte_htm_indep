@@ -9,12 +9,16 @@ header {
   contain: layout;
 }
 
+section.skills-sect {
+  box-shadow: 0px 0px 10px 3px black;
+}
+
 .jumbotron {
-  box-shadow: -1px 1px 20px black;
+  box-shadow: -1px 1px 10px black;
 }
 
 .card {
-  box-shadow: -1px 1px 10px black;
+  box-shadow: -1px 1px 6px black;
 }
 
 .propic-figure {
