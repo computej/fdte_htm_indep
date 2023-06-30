@@ -1,8 +1,20 @@
+body {
+  background-color: gray;
+}
+
 header {
 /*  to not touch the page top  */
   margin-top: 1rem;
 /*  the figure wouldn't look right without this  */
   contain: layout;
+}
+
+.jumbotron {
+  box-shadow: -1px 1px 20px black;
+}
+
+.card {
+  box-shadow: -1px 1px 10px black;
 }
 
 .propic-figure {
@@ -34,7 +46,8 @@ header {
 
 div.skills-sect {
   display: grid;
-  column-gap: 5px;
+  column-gap: 1ch;
+  row-gap: 1ex;
   grid: auto-flow dense / 1fr 1fr 1fr;
 }
 
@@ -57,6 +70,20 @@ div.skills-sect {
 #vscode-badge {
   /*! background-color: #4db3f3 */
   background-color: #0066b8
+}
+
+#boot-badge {
+  background: linear-gradient(to right, #8912f9,#6d10f3);
+}
+
+img + div.card-body hr {
+/* tighter fit for hrs in cardbodies that follow an img */
+ margin-top: -1ex; 
+}
+
+#porto .porto-sect .card img {
+  object-fit: cover;
+  aspect-ratio: 1.5/1.333333;
 }
 
 address a[href^=mailto]::before {
