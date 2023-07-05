@@ -48,8 +48,20 @@ section.skills-sect {
   box-shadow: -1px 1px 10px black;
 }
 
+.jumbo-text {
+  font-size: 1.5em;
+}
+
 .card {
   box-shadow: -1px 1px 6px black;
+}
+
+.propic-shadow-hax {
+/*  box-shadow: -2px 2px 8px 0px navy, -2px 2px 8px 5px cyan; */
+/*  you can't use the above with clip-path becuase it will cutoff the shadow, but 
+ *  you can use filter with drop-shadow() on a parent to affect the cutoff area */
+  filter: drop-shadow(-2px 2px 12px cyan) drop-shadow(2px -2px 6px navy);
+  
 }
 
 .propic-figure {
@@ -57,7 +69,7 @@ section.skills-sect {
   max-width: fit-content;
   margin: 0 auto;
   display: grid;
-  float: right;
+  float: left;
   background-color: lightsteelblue;
   clip-path: circle(42.8%);
 }
