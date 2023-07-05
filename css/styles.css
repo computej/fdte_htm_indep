@@ -123,6 +123,11 @@ div.skills-sect {
   background: linear-gradient(to right, #8912f9,#6d10f3);
 }
 
+hr {
+  border-color: black;
+  border-width: 2px;
+}
+
 img + div.card-body hr {
 /* tighter fit for hrs in cardbodies that follow an img */
  margin-top: -1ex; 
