@@ -9,7 +9,37 @@ header {
   contain: layout;
 }
 
+.card-body li {
+  list-style-type: symbols(cyclic ">");
+}
+
+#about .card-body ul li p::first-letter {
+  font-size: 250%;
+  font-family: 'Helvetica','Roboto', sans-serif; 
+  background-image: linear-gradient(to top, #FF0000, #320000);
+  background-clip: text;
+  /*! box-shadow: -2px 2px 8px 0px navy, -2px 2px 8px 5px cyan; */
+  /*! box-shadow: -2px -2px 5px 0px darkred; */
+  color: transparent;
+  float: left;
+  border-radius: 10px;
+  border-style: solid;
+  /*! border-color: darkred; */
+  border-width: 1px;
+  padding: 5px 3px;
+  margin-right: 5px;
+}
+
+.texan-text {
+  color: navy;
+}
+
+.oregonian-text {
+  color: green;
+}
+
 section.skills-sect {
+  background-color: darkgray;
   box-shadow: 0px 0px 10px 3px black;
 }
 
@@ -85,7 +115,8 @@ img + div.card-body hr {
  margin-top: -1ex; 
 }
 
-#porto .porto-sect .card img {
+#porto-boot-recreate .card-img-top,
+#porto-fdte-first-section .card-img-top {
   object-fit: cover;
   aspect-ratio: 1.5/1.333333;
 }
