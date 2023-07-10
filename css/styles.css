@@ -9,6 +9,10 @@ header {
   contain: layout;
 }
 
+hgroup {
+  text-align: center
+}
+
 .card-body li::marker {
   content: '>';
   font-size: 3ch;
@@ -17,7 +21,7 @@ header {
 #about .card-body ul li p::first-letter {
   font-size: 250%;
   font-family: 'Helvetica','Roboto', sans-serif; 
-  background-image: linear-gradient(to top, #FF0000, #320000);
+  background-image: linear-gradient(to top, #ff0000, #600000);
   background-clip: text;
   /*! box-shadow: -2px 2px 8px 0px navy, -2px 2px 8px 5px cyan; */
   /*! box-shadow: -2px -2px 5px 0px darkred; */
@@ -69,8 +73,8 @@ section.skills-sect {
   max-width: fit-content;
   margin: 0 auto;
   display: grid;
-  float: left;
-  background-color: lightsteelblue;
+  float: unset;
+  background-color: lab(70% -14.36% -12.177%);
   clip-path: circle(42.8%);
 }
 
