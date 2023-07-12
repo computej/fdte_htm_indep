@@ -3,8 +3,7 @@
 
 #### **By Jeffrey Fisher**
 
-<!-- replace example links when the gh-pages is live -->
-If you found this repository looking my portfolio, click [this link](https://example.com)
+If you found this repository looking my portfolio, click [this link](https://computej.github.io/fdte_htm_indep/)
 
 
 ## Technologies Used
@@ -15,7 +14,7 @@ If you found this repository looking my portfolio, click [this link](https://exa
 
 ## Description
 
-This is the set of documents that constitute my portfolio. Feel free to browse this repository directory or view the [corresponding gh-pages site](https://example.com)
+This is the set of documents that constitute my portfolio. Feel free to browse this repository directory or view the [corresponding gh-pages site](https://computej.github.io/fdte_htm_indep/)
 
 ## Usage
 
