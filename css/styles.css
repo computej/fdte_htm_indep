@@ -22,6 +22,7 @@ hgroup {
   font-size: 250%;
   font-family: 'Helvetica','Roboto', sans-serif; 
   background-image: linear-gradient(to top, #ff0000, #600000);
+  background-color: #000000;
   background-clip: text;
   /*! box-shadow: -2px 2px 8px 0px navy, -2px 2px 8px 5px cyan; */
   /*! box-shadow: -2px -2px 5px 0px darkred; */
@@ -104,14 +105,17 @@ div.skills-sect {
 
 #html-badge {
   background: linear-gradient(to right, #e54c21 50%, #f16524 50%);
+  background-color: #e54c21;
 }
 
 #css-badge {
   background: linear-gradient(to right, #214ce5 50%, #2465f1 50%);
+  background-color: #214ce5;
 }
 
 #sharp-badge {
   background: linear-gradient(45deg, #189f20 50%, #009404 50%);
+  background-color: #189f20;
 }
 
 #bash-badge {
@@ -125,6 +129,7 @@ div.skills-sect {
 
 #boot-badge {
   background: linear-gradient(to right, #8912f9,#6d10f3);
+  background-color: #8912f9;
 }
 
 hr {
