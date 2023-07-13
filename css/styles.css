@@ -149,6 +149,6 @@ address a[href^=mailto]::before {
 address a[href^=tel]::before {
   content: "📱: ";
 }
-address a[href$=computej]::before {
+address a[href$="github.com/computej"]::before {
   content: "GitHub: ";
 }
