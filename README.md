@@ -20,11 +20,11 @@ This is the set of documents that constitute my portfolio. Feel free to browse t
 
 As mentioned above, this is a GitHub Pages site, see the preceding section.
 
-If you're downloading this respository as a .zip, you need to unzip it into an empty directory then open index.html in your browser.
+If you're downloading this repository as a .zip, you need to unzip it into an empty directory then open index.html in your browser.
 
 ## Known Bugs 
 
-* The figure in the jumbotron becomes unclickable (and invisible to the colorpicker tool) if it's set to float 
+* The figure in the jumbotron becomes not clickable (and invisible to the color-picker tool) if it's set to float.
 
 ## License
 

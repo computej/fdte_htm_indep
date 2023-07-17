@@ -24,13 +24,9 @@ hgroup {
   background-image: linear-gradient(to top, #ff0000, #600000);
   background-color: #000000;
   background-clip: text;
-  /*! box-shadow: -2px 2px 8px 0px navy, -2px 2px 8px 5px cyan; */
-  /*! box-shadow: -2px -2px 5px 0px darkred; */
   color: transparent;
   float: left;
   border-radius: 10px;
-  /*! border-style: solid; */
-  /*! border-color: darkred; */
   border-width: 1px;
   padding: 5px 1px;
   margin-right: 5px;
@@ -63,8 +59,8 @@ section.skills-sect {
 
 .propic-shadow-hax {
 /*  box-shadow: -2px 2px 8px 0px navy, -2px 2px 8px 5px cyan; */
-/*  you can't use the above with clip-path becuase it will cutoff the shadow, but 
- *  you can use filter with drop-shadow() on a parent to affect the cutoff area */
+/*  you can't just use the above with clip-path because it will apply shadows to the entire box, which will get cutoff, but 
+ *  you can use filter with drop-shadow() on a parent to apply shadows the cutoff area */
   filter: drop-shadow(-2px 2px 12px cyan) drop-shadow(2px -2px 6px navy);
   
 }
@@ -123,7 +119,6 @@ div.skills-sect {
 }
 
 #vscode-badge {
-  /*! background-color: #4db3f3 */
   background-color: #0066b8
 }
 
